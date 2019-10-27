@@ -15,6 +15,7 @@ LA-Geography-2019.csv is taken from the data at https://geoportal.statistics.gov
 (These notes are taken from the ODS file at https://www.gov.uk/government/publications/16-to-19-allocation-data-2019-to-2020-academic-year with some information deleted because it is not relevant to the data provided here).
 
 <i>
+  
 ### 16-19 Allocations for the 2019 to 2020 academic year
 
 This publication includes allocation data for institutions funded by the Education and Skills Funding Agency (ESFA) for the 2019 to 2020 academic year.
