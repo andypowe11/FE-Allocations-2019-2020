@@ -12,7 +12,7 @@ LA-Geography-2019.csv is taken from the data at https://geoportal.statistics.gov
 
 ## Education & Skills Funding Agency notes
 
-(These notes are taken from the ODS file at https://www.gov.uk/government/publications/16-to-19-allocation-data-2019-to-2020-academic-year with some information deleted because it is not relevant to the data provided here).
+These notes are taken from the ODS file at https://www.gov.uk/government/publications/16-to-19-allocation-data-2019-to-2020-academic-year with some information deleted because it is not relevant to the data provided here.
 
 <i>
   
