@@ -14,7 +14,7 @@ LA-Geography-2019.csv is taken from the data at https://geoportal.statistics.gov
 
 (These notes are taken from the ODS file at https://www.gov.uk/government/publications/16-to-19-allocation-data-2019-to-2020-academic-year with some information deleted because it is not relevant to the data provided here).
 
-*
+<i>
 ### 16-19 Allocations for the 2019 to 2020 academic year
 
 This publication includes allocation data for institutions funded by the Education and Skills Funding Agency (ESFA) for the 2019 to 2020 academic year.
@@ -50,4 +50,4 @@ Column ‘O’ shows how much high needs funding has been allocated with £6,000
 The overall total funding allocation, including residential schemes, but excluding DaDA and bursary funding for maintained special schools (see separate worksheets) is shown in Column 'V'. 
 
 High needs funding for post 16 places in maintained special schools and maintained schools with sixth forms, is not included within this publication as it is paid to local authorities in the Dedicated Schools Grant.  
-*
+</i>
