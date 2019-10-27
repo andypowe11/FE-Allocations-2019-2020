@@ -1,0 +1,409 @@
+﻿Local Authority,Control
+Aberdeen,NOC
+Aberdeenshire,NOC
+Adur,CON
+Allerdale,NOC
+Amber Valley,LAB
+Angus,NOC
+Antrim and Newtownabbey,NOC
+Ards and North Down,NOC
+Argyll and Bute,NOC
+"Armagh City, Banbridge and Craigavon",NOC
+Arun,NOC
+Ashfield,IND
+Ashford,CON
+Aylesbury Vale,CON
+Babergh,NOC
+Barking and Dagenham,LAB
+Barnet,CON
+Barnsley,LAB
+Barrow-in-Furness,LAB
+Basildon,NOC
+Basingstoke and Deane,CON
+Bassetlaw,LAB
+Bath and North East Somerset,LD
+Bedford,NOC
+Belfast,NOC
+Bexley,CON
+Birmingham,LAB
+Blaby,CON
+Blackburn with Darwen,LAB
+Blackpool,LAB
+Blaenau Gwent,IND
+Bolsover,NOC
+Bolton,NOC
+Boston,CON
+"Bournemouth, Christchurch and Poole",NOC
+Bracknell Forest,CON
+Bradford,LAB
+Braintree,CON
+Breckland,CON
+Brent,LAB
+Brentwood,CON
+Bridgend,NOC
+Brighton and Hove,NOC
+Bristol City of,LAB
+Broadland,CON
+Bromley,CON
+Bromsgrove,CON
+Broxbourne,CON
+Broxtowe,NOC
+Buckinghamshire,CON
+Burnley,NOC
+Bury,LAB
+Caerphilly,LAB
+Calderdale,LAB
+Cambridge,LAB
+Cambridgeshire,CON
+Camden,LAB
+Cannock Chase,NOC
+Canterbury,CON
+Cardiff,LAB
+Carlisle,NOC
+Carmarthenshire,NOC
+Castle Point,CON
+Causeway Coast and Glens,NOC
+Central Bedfordshire,CON
+Ceredigion,NOC
+Charnwood,CON
+Chelmsford,LD
+Cheltenham,LD
+Cherwell,CON
+Cheshire East,NOC
+Cheshire West and Chester,NOC
+Chesterfield,LAB
+Chichester,NOC
+Chiltern,CON
+Chorley,LAB
+City of London Corporation,IND
+Clackmannanshire,NOC
+Colchester,NOC
+Conwy,NOC
+Copeland,LAB
+Corby,LAB
+Cornwall,NOC
+Cotswold,LD
+Coventry,LAB
+Craven,NOC
+Crawley,LAB
+Croydon,LAB
+Cumbria,NOC
+Dacorum,CON
+Darlington,NOC
+Dartford,CON
+Daventry,CON
+Denbighshire,NOC
+Derby,NOC
+Derbyshire,CON
+Derbyshire Dales,CON
+Derry and Strabane,NOC
+Devon,CON
+Doncaster,LAB
+Dorset,CON
+Dover,CON
+Dudley,NOC
+Dumfries and Galloway,NOC
+Dundee,NOC
+Durham,LAB
+Ealing,LAB
+East Ayrshire,NOC
+East Cambridgeshire,CON
+East Devon,IND
+East Dunbartonshire,NOC
+East Hampshire,CON
+East Hertfordshire,CON
+East Lindsey,CON
+East Lothian,NOC
+East Northamptonshire,CON
+East Renfrewshire,NOC
+East Riding of Yorkshire,CON
+East Staffordshire,CON
+East Suffolk,CON
+East Sussex,CON
+Eastbourne,LD
+Eastleigh,LD
+Eden,NOC
+Edinburgh,NOC
+Eilean Siar,IND
+Elmbridge,NOC
+Enfield,LAB
+Epping Forest,CON
+Epsom and Ewell,IND
+Erewash,CON
+Essex,CON
+Exeter,LAB
+Falkirk,NOC
+Fareham,CON
+Fenland,CON
+Fermanagh and Omagh,NOC
+Fife,NOC
+Flintshire,NOC
+Folkestone and Hythe,NOC
+Forest of Dean,NOC
+Fylde,CON
+Gateshead,LAB
+Gedling,LAB
+Glasgow,NOC
+Gloucester,CON
+Gloucestershire,CON
+Gosport,CON
+Gravesham,LAB
+Great Yarmouth,CON
+Greenwich,LAB
+Guildford,NOC
+Gwynedd,PC
+Hackney,LAB
+Halton,LAB
+Hambleton,CON
+Hammersmith and Fulham,LAB
+Hampshire,CON
+Harborough,CON
+Haringey,LAB
+Harlow,LAB
+Harrogate,CON
+Harrow,LAB
+Hart,NOC
+Hartlepool,NOC
+Hastings,LAB
+Havant,CON
+Havering,NOC
+Herefordshire,NOC
+Hertfordshire,CON
+Hertsmere,CON
+High Peak,LAB
+Highland,NOC
+Hillingdon,CON
+Hinckley and Bosworth,LD
+Horsham,CON
+Hounslow,LAB
+Huntingdonshire,CON
+Hyndburn,LAB
+Inverclyde,NOC
+Ipswich,LAB
+Isle of Anglesey,NOC
+Isle of Wight,CON
+Isles of Scilly,IND
+Islington,LAB
+Kensington and Chelsea,CON
+Kent,CON
+Kettering,CON
+King's Lynn and West Norfolk,CON
+Kingston upon Hull City of,LAB
+Kingston upon Thames,LD
+Kirklees,LAB
+Knowsley,LAB
+Lambeth,LAB
+Lancashire,CON
+Lancaster,NOC
+Leeds,LAB
+Leicester,LAB
+Leicestershire,CON
+Lewes,NOC
+Lewisham,LAB
+Lichfield,CON
+Lincoln,LAB
+Lincolnshire,CON
+Lisburn and Castlereagh,NOC
+Liverpool,LAB
+Luton,LAB
+Maidstone,NOC
+Maldon,CON
+Malvern Hills,NOC
+Manchester,LAB
+Mansfield,NOC
+Medway,CON
+Melton,CON
+Mendip,NOC
+Merthyr Tydfil,IND
+Merton,LAB
+Mid and East Antrim,NOC
+Mid Devon,NOC
+Mid Suffolk,NOC
+Mid Sussex,CON
+Middlesbrough,NOC
+Midlothian,NOC
+Mid-Ulster,NOC
+Milton Keynes,NOC
+Mole Valley,LD
+Monmouthshire,CON
+Moray,NOC
+Neath Port Talbot,LAB
+New Forest,CON
+Newark and Sherwood,CON
+Newcastle upon Tyne,LAB
+Newcastle-under-Lyme,NOC
+Newham,LAB
+Newport,LAB
+"Newry, Mourne and Down",NOC
+Norfolk,CON
+North Ayrshire,NOC
+North Devon,LD
+North East Derbyshire,CON
+North East Lincolnshire,CON
+North Hertfordshire,NOC
+North Kesteven,IND
+North Lanarkshire,NOC
+North Lincolnshire,CON
+North Norfolk,LD
+North Somerset,NOC
+North Tyneside,LAB
+North Warwickshire,CON
+North West Leicestershire,CON
+North Yorkshire,CON
+Northampton,CON
+Northamptonshire,CON
+Northumberland,NOC
+Norwich,LAB
+Nottingham,LAB
+Nottinghamshire,NOC
+Nuneaton and Bedworth,NOC
+Oadby and Wigston,LD
+Oldham,LAB
+Orkney,IND
+Oxford,LAB
+Oxfordshire,NOC
+Pembrokeshire,IND
+Pendle,NOC
+Perth and Kinross,NOC
+Peterborough,NOC
+Plymouth,LAB
+Portsmouth,NOC
+Powys,NOC
+Preston,LAB
+Reading,LAB
+Redbridge,LAB
+Redcar and Cleveland,NOC
+Redditch,CON
+Reigate and Banstead,CON
+Renfrewshire,NOC
+Rhondda Cynon Taf,LAB
+Ribble Valley,CON
+Richmond upon Thames,LD
+Richmondshire,NOC
+Rochdale,LAB
+Rochford,CON
+Rossendale,LAB
+Rother,NOC
+Rotherham,LAB
+Rugby,CON
+Runnymede,CON
+Rushcliffe,CON
+Rushmoor,CON
+Rutland,CON
+Ryedale,NOC
+Salford,LAB
+Sandwell,LAB
+Scarborough,NOC
+Scottish Borders,NOC
+Sedgemoor,CON
+Sefton,LAB
+Selby,CON
+Sevenoaks,CON
+Sheffield,LAB
+Shetland,IND
+Shropshire,CON
+Slough,LAB
+Solihull,CON
+Somerset,CON
+Somerset West and Taunton,LD
+South Ayrshire,NOC
+South Bucks,CON
+South Cambridgeshire,LD
+South Derbyshire,CON
+South Gloucestershire,CON
+South Hams,CON
+South Holland,CON
+South Kesteven,CON
+South Lakeland,LD
+South Lanarkshire,NOC
+South Norfolk,CON
+South Northamptonshire,CON
+South Oxfordshire,NOC
+South Ribble,NOC
+South Somerset,LD
+South Staffordshire,CON
+South Tyneside,LAB
+Southampton,LAB
+Southend-on-Sea,NOC
+Southwark,LAB
+Spelthorne,CON
+St Albans,NOC
+St. Helens,LAB
+Stafford,CON
+Staffordshire,CON
+Staffordshire Moorlands,NOC
+Stevenage,LAB
+Stirling,NOC
+Stockport,NOC
+Stockton-on-Tees,NOC
+Stoke-on-Trent,NOC
+Stratford-on-Avon,CON
+Stroud,NOC
+Suffolk,CON
+Sunderland,LAB
+Surrey,CON
+Surrey Heath,CON
+Sutton,LD
+Swale,NOC
+Swansea,LAB
+Swindon,CON
+Tameside,LAB
+Tamworth,CON
+Tandridge,NOC
+Teignbridge,LD
+Telford and Wrekin,LAB
+Tendring,NOC
+Test Valley,CON
+Tewkesbury,CON
+Thanet,NOC
+Three Rivers,LD
+Thurrock,NOC
+Tonbridge and Malling,CON
+Torbay,NOC
+Torfaen,LAB
+Torridge,NOC
+Tower Hamlets,LAB
+Trafford,LAB
+Tunbridge Wells,CON
+Uttlesford,IND
+Vale of Glamorgan,NOC
+Vale of White Horse,LD
+Wakefield,LAB
+Walsall,CON
+Waltham Forest,LAB
+Wandsworth,CON
+Warrington,LAB
+Warwick,NOC
+Warwickshire,CON
+Watford,LD
+Waverley,NOC
+Wealden,CON
+Wellingborough,CON
+Welwyn Hatfield,NOC
+West Berkshire,CON
+West Devon,CON
+West Dunbartonshire,NOC
+West Lancashire,LAB
+West Lindsey,CON
+West Lothian,NOC
+West Oxfordshire,CON
+West Suffolk,CON
+West Sussex,CON
+Westminster,CON
+Wigan,LAB
+Wiltshire,CON
+Winchester,LD
+Windsor and Maidenhead,CON
+Wirral,NOC
+Woking,NOC
+Wokingham,CON
+Wolverhampton,LAB
+Worcester,NOC
+Worcestershire,CON
+Worthing,CON
+Wrexham,NOC
+Wychavon,CON
+Wycombe,CON
+Wyre,CON
+Wyre Forest,NOC
+York,NOC
