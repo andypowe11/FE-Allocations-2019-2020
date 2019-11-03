@@ -21,30 +21,31 @@ See analyse.R for an R script to clean and analyse the data. This script reads t
 | CON | 1330 | £5238 |
 
 That's about a 5% difference in funding per student between the lowest funded areas and the highest funded areas (on average). Actually, if we look at average funding per student by region:
-
 	
 Region | Count | Average Funding Per Student
 | --- |:---:|:---:|
-GL | 501 | 5616 |
-NE | 132 | 5564 |
-NW | 302 | 5532 |
-SW | 286 | 5428 |
-SE | 460 | 5330 |
-YH | 236 | 5302 |
-WM | 324 | 5217 |
-EM | 267 | 5173 |
-EE | 310 | 5039 |
+GL | 501 | £5616 |
+NE | 132 | £5564 |
+NW | 302 | £5532 |
+SW | 286 | £5428 |
+SE | 460 | £5330 |
+YH | 236 | £5302 |
+WM | 324 | £5217 |
+EM | 267 | £5173 |
+EE | 310 | £5039 |
+
+There is a regional differential of about 11% ebtween the lowest funded region and the highest funded region (on average).
 
 Looking at funding for free meals, which we might assume to be indicative of social deprevation, we see:
 
 | LA Control | Average Free Meals Funding per Student |
 | --- |:---:|
-| LAB | 14 |
-| NOC | 12 |
-| CON | 8 |
-| LD | 5 |
+| LAB | £14 |
+| NOC | £12 |
+| CON | £8 |
+| LD | £5 |
 
-This would appear to indicate that social deprevation is significantly worse in Labour controlled areas than it is in Conservative or Liberal Democrat. No big surprises there.
+This would appear to indicate that social deprevation is significantly worse in Labour controlled areas than it is in Conservative or Liberal Democrat. No big surprises there I guess.
 
 ## Education & Skills Funding Agency notes
 
