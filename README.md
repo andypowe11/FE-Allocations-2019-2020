@@ -22,12 +22,14 @@ See analyse.R for an R script to clean and analyse the data. This script reads t
 
 Looking at funding for free meals, which we might assume to be indicative of social deprevation, we see:
 
-| LA Control | Number of LAs | Average Free Meals Funding per Student |
-| --- |:---:|:---:|
-| LAB | 961 | 14 |
-| NOC | 468 | 12 |
-| CON | 1330 | 8 |
-| LD | 59 | 5 |
+| LA Control | Average Free Meals Funding per Student |
+| --- |:---:|
+| LAB | 14 |
+| NOC | 12 |
+| CON | 8 |
+| LD | 5 |
+
+This would appear to indicate that social deprevation is significantly worse in Labour controlled areas than it is in Conservative or Liberal Democrat. No big surprises there.
 
 ## Education & Skills Funding Agency notes
 
