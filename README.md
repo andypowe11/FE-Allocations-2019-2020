@@ -15,10 +15,10 @@ See analyse.R for an R script to clean and analyse the data. This script reads t
 
 | LA Control | Number of LAs | Average Funding per Student |
 | --- | --- | --- |
-| LAB | 961	| 5516 |
-| NOC | 468	| 5391 |
-| LD | 59	| 5363 |
-| CON | 1330 | 5238 |
+| LAB | 961	| £5516 |
+| NOC | 468	| £5391 |
+| LD | 59	| £5363 |
+| CON | 1330 | £5238 |
 
 ## Education & Skills Funding Agency notes
 
