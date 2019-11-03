@@ -20,6 +20,21 @@ See analyse.R for an R script to clean and analyse the data. This script reads t
 | LD | 59	| £5363 |
 | CON | 1330 | £5238 |
 
+That's about a 5% difference in funding per student between the lowest funded areas and the highest funded areas (on average). Actually, if we look at average funding per student by region:
+
+	
+Region | Count | Average Funding Per Student
+| --- |:---:|:---:|
+GL | 501 | 5616 |
+NE | 132 | 5564 |
+NW | 302 | 5532 |
+SW | 286 | 5428 |
+SE | 460 | 5330 |
+YH | 236 | 5302 |
+WM | 324 | 5217 |
+EM | 267 | 5173 |
+EE | 310 | 5039 |
+
 Looking at funding for free meals, which we might assume to be indicative of social deprevation, we see:
 
 | LA Control | Average Free Meals Funding per Student |
