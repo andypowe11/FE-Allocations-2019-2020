@@ -49,16 +49,19 @@ df$AlternativeCompletionsFunding <- replaceCommas(df$AlternativeCompletionsFundi
 df$TotalFundingAllocation <- replaceCommas(df$TotalFundingAllocation)
 
 # Remove any rows with NA value
-df <- df[complete.cases(df),]
+df <- df[complete.cases(df), ]
 
 # Remove any rows with 0 students
 df <- df[df$TotalStudents != 0, ]
 
-# Create some helper columns
+# Remove entries for "Wales" because these are not associated with a Local Authority
+df <- df[df$LA != "Wales", ]
+
+# Create new columns with funding per student and free meal per student
 df$FundingPerStudent <- round(df$TotalFundingAllocation / df$TotalStudents)
+df$FreeMealsFundingPerStudent <- round(df$FreeMealsFunding / df$TotalStudents)
 
 # Compute some averages by Region and LA
-
 #Regions <- table(df$Region)
 #Regions <- Regions[order(-Regions)]
 #LAs <- table(df$LA)
@@ -69,14 +72,37 @@ df$FundingPerStudent <- round(df$TotalFundingAllocation / df$TotalStudents)
 # install.packages("tidyverse")
 library(dplyr)
 
-regions_df <- df %>%
-group_by(Region) %>%
-summarize(Count=n(), AverageFundingPerStudent=mean(FundingPerStudent)) %>%
-mutate(AverageFundingPerStudent=round(AverageFundingPerStudent)) %>%
-arrange(desc(AverageFundingPerStudent))
+# Summarise count and average funding per student by region
+funding_by_region_summary_df <- df %>%
+  group_by(Region) %>%
+  summarize(Count=n(), AverageFundingPerStudent=mean(FundingPerStudent)) %>%
+  mutate(AverageFundingPerStudent=round(AverageFundingPerStudent)) %>%
+  arrange(desc(AverageFundingPerStudent))
 
-las_df <- df %>%
-group_by(LA) %>%
-summarize(Count=n(), AverageFundingPerStudent=mean(FundingPerStudent)) %>%
-mutate(AverageFundingPerStudent=round(AverageFundingPerStudent)) %>%
-arrange(desc(AverageFundingPerStudent))
+# Summarise count and average funding per student by LA
+funding_by_la_summary_df <- df %>%
+  group_by(LA) %>%
+  summarize(Count=n(), AverageFundingPerStudent=mean(FundingPerStudent)) %>%
+  mutate(AverageFundingPerStudent=round(AverageFundingPerStudent)) %>%
+  arrange(desc(AverageFundingPerStudent))
+
+# Read in the political control data and tidy column names
+pcdf <- read.csv("LA-Political-Control-2019.csv")
+names(pcdf)[1]<-"LA"
+
+# Add a new column for political control to original data frame
+df <- left_join(df, pcdf)
+
+# Summarise count and average funding per student by political control
+funding_by_pc_summary_df <- df %>%
+  group_by(Control) %>%
+  summarize(Count=n(), AverageFundingPerStudent=mean(FundingPerStudent)) %>%
+  mutate(AverageFundingPerStudent=round(AverageFundingPerStudent)) %>%
+  arrange(desc(AverageFundingPerStudent))
+
+# Summarise count and average free meal funding per student by political control
+freemeals_by_pc_summary_df <- df %>%
+  group_by(Control) %>%
+  summarize(Count=n(), AverageFreeMealsFundingPerStudent=mean(FreeMealsFundingPerStudent)) %>%
+  mutate(AverageFreeMealsFundingPerStudent=round(AverageFreeMealsFundingPerStudent)) %>%
+  arrange(desc(AverageFreeMealsFundingPerStudent))
