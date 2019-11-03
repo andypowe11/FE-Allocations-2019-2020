@@ -1,5 +1,5 @@
 # UK Further Education Funding Allocations 2019-2020
-Data on FE funding allocations for 2019-2020
+Brief analysis of FE funding allocations for 2019-2020
 
 ## Data sources
 
