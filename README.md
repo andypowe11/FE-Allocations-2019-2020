@@ -3,12 +3,20 @@ Data on FE funding allocations for 2019-2020
 
 ## Data sources
 
-FE-Allocations-2019-2020.csv is a copy of the 'Allocations' tab extracted from the ODS file at https://www.gov.uk/government/publications/16-to-19-allocation-data-2019-to-2020-academic-year.
+FE-Allocations-2019-2020.csv is a copy of the 'Allocations' tab extracted from the ODS file at https://www.gov.uk/government/publications/16-to-19-allocation-data-2019-to-2020-academic-year. See the notes section below for more information about the data in this file.
 
 LA-Political-Control-2019.csv is scraped from the Wikipedia page at https://en.wikipedia.org/wiki/Political_make-up_of_local_councils_in_the_United_Kingdom (with minimal changes to align LA naming).
 
 LA-Geography-2019.csv is taken from the data at https://geoportal.statistics.gov.uk/datasets/bbb0e58b0be64cc1a1460aa69e33678f_0?geometry=-8.629%2C50.184%2C3.637%2C51.399 (with minimal changes to align LA naming). Note that this file can not be trivially used with the other two because it provides data for Local Authority Districts, rather than for Local Authorities (and I don't have a mapping between the two).
 
+## Analysis
+
+See analyse.R for an R script to clean and analyse the data. This script reads the 'funding' and 'political control' files above into 2 data frames (df and pcdf) and uses them to show average funding per student by local authority political control:
+
+1	LAB	961	5516
+2	NOC	468	5391
+3	LD	59	5363
+4	CON	1330	5238
 
 ## Education & Skills Funding Agency notes
 
