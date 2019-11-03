@@ -13,10 +13,10 @@ LA-Geography-2019.csv is taken from the data at https://geoportal.statistics.gov
 
 See analyse.R for an R script to clean and analyse the data. This script reads the 'funding' and 'political control' files above into 2 data frames (df and pcdf) and uses them to show average funding per student by local authority political control:
 
-| LAB	| 961	| 5516 |
-| NOC	| 468	| 5391 |
-| LD	| 59	| 5363 |
-| CON	| 1330	| 5238 |
+| LAB | 961	| 5516 |
+| NOC | 468	| 5391 |
+| LD | 59	| 5363 |
+| CON | 1330 | 5238 |
 
 ## Education & Skills Funding Agency notes
 
